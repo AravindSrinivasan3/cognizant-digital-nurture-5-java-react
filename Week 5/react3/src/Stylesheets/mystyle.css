@@ -1,0 +1,17 @@
+.score-card {
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.score-card h2 {
+  margin-bottom: 20px;
+}
+
+.score-card p {
+  text-align: left;
+}
