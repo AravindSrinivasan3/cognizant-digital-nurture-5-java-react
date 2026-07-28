@@ -1,0 +1,15 @@
+cd GitDemo
+
+git checkout master
+
+git status
+
+git branch
+
+git branch -a
+
+git pull origin master
+
+git push origin master
+
+git remote -v

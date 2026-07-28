@@ -1,0 +1,22 @@
+cd GitDemo
+
+mkdir log
+
+echo "This is a log file" > log/app.log
+
+echo "Error Log" > error.log
+
+notepad++ .gitignore
+
+*.log
+log/
+
+git status
+
+git add .gitignore
+
+git commit -m "Added .gitignore"
+
+git status
+
+git push origin master

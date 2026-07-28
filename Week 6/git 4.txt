@@ -1,0 +1,52 @@
+cd GitDemo
+
+git checkout master
+git status
+
+git branch GitWork
+git checkout GitWork
+
+notepad++ hello.xml
+
+git status
+
+git add hello.xml
+git commit -m "Added hello.xml in GitWork"
+
+git checkout master
+
+notepad++ hello.xml
+
+git add hello.xml
+git commit -m "Added hello.xml in master"
+
+git log --oneline --graph --decorate --all
+
+git diff master GitWork
+
+git difftool master GitWork
+
+git merge GitWork
+
+git status
+
+notepad++ hello.xml
+
+git add hello.xml
+git commit -m "Resolved merge conflict"
+
+git status
+
+notepad++ .gitignore
+
+*.bak
+
+git add .gitignore
+
+git commit -m "Ignore backup files"
+
+git branch
+
+git branch -d GitWork
+
+git log --oneline --graph --decorate
